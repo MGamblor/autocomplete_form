@@ -1,0 +1,94 @@
+/*
+############################################################################
+#                               CSS BELOW                                  #
+############################################################################
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#heading {
+  text-align: center;
+  color: #2674aa;
+}
+
+#mandatory {
+      margin: 0 auto;
+      width: 700px;
+      padding-left: 20px;
+}
+
+.required {
+  color: red;
+}
+
+#box {
+	margin: 0 auto;
+	background-color: #CCCCCC;
+	width: 700px;
+	padding: 10px;
+	border-radius: 4px;
+	border: 2px solid black;
+}
+
+@media screen and (max-width: 750px) {
+    #box, #mandatory {
+        width: 90%;
+    }
+}
+	
+form {
+    margin: 10px 10px 0px 10px;
+}
+
+label {
+  color: black;
+  width: 100px;
+  font-size: 1em; 
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.arrival {
+   padding: 9px 20px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+input[type=text]:focus {
+    border: 1px solid #555;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+input[type=submit] {
+    background-color: #2674aa;
+    border: none;
+    width: 250px;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#buttonHolder{
+    text-align: center;
+}
